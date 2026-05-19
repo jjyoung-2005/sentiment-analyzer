@@ -28,11 +28,14 @@ emotion_map = {
     'pride' : 'positive',
     'envy' : 'negative',
 }
+labels = ["positive", "negative", "neutral"]
 
 df['true_sentiment'] = df['emotion'].map(emotion_map)
 
-conf_matrix = confusion_matrix(df['true_sentiment'], df['sentiment'])
+conf_matrix = confusion_matrix(df['true_sentiment'], df['sentiment'], labels = labels)
 display = ConfusionMatrixDisplay(conf_matrix)
 display.plot()
 plt.savefig('confusion_matrix.png')
 plt.show()
+print(df['true_sentiment'].value_counts())
+print(df['sentiment'].value_counts())

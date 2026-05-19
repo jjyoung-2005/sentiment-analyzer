@@ -10,11 +10,11 @@ df['compound'] = df['text'].apply(lambda x: analyzer.polarity_scores(x)['compoun
 
 def get_sentiment_score(compound):
     if compound >= 0.05:
-        return "Positive"
+        return "positive"
     elif compound <= -0.05:
-        return  "Negative"
+        return  "negative"
     else:
-        return  "Neutral"
+        return  "neutral"
 
 df['sentiment'] = df['compound'].apply(get_sentiment_score)
 
