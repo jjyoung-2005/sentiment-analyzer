@@ -14,7 +14,7 @@
 
 Using VADER (Valence Aware Dictionary and sEntiment Reasoner) - a lexicon used for informal social media posts - I decided to evaluate its accuracy by comparing it with human classification scores. With this information, we can decide whether rule-based sentiment tools like VADER are reliable enough for real-world mental health and social media analysis.
 
-      My goal with this project is to explore how sentiment varies across emotion categories to see where VADER struggles to most and visualize findings through an interactive Tableau dashboard.
+My goal with this project is to explore how sentiment varies across emotion categories to see where VADER struggles to most and visualize findings through an interactive Tableau dashboard.
 
 ## Tools Used
 
