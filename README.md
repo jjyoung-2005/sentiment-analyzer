@@ -60,3 +60,7 @@ My goal with this project is to explore how sentiment varies across emotion cate
 ## Tableau Public Visualizations Dashboard
 
 https://public.tableau.com/app/profile/josh.young8779/viz/EmotionSentimentAnalysis/Dashboard1?publish=yes
+
+## Dataset 
+https://huggingface.co/datasets/dair-ai/emotion
+
