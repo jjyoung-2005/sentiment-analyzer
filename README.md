@@ -1,5 +1,5 @@
 # Emotion Classification and Sentiment Analyzer
-#### An end-to-end analysis of sentiment across six human-labeled emotion categories using VADER, Python,, SQLite, and Tableau
+#### An end-to-end analysis of sentiment across six human-labeled emotion categories using VADER, Python,, SQLite, and Tableau.
 
 ## Overview
 
