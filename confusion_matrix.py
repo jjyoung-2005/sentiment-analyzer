@@ -3,7 +3,7 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib
 import pandas as pd
 import matplotlib.pyplot as plt
-
+from sklearn.metrics import accuracy_score
 
 conn = sqlite3.connect('emotions.db')
 df = pd.read_sql("SELECT * FROM scored_posts", conn)
@@ -39,3 +39,4 @@ plt.savefig('confusion_matrix.png')
 plt.show()
 print(df['true_sentiment'].value_counts())
 print(df['sentiment'].value_counts())
+print(accuracy_score(df['true_sentiment'], df['sentiment']))
